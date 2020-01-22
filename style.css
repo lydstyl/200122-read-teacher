@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+h1 {
+  line-height: 4rem;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: lightskyblue;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+#tab {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+}
+
+#tab .cell {
+  display: flex;
+  justify-content: center;
+}
